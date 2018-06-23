@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container" >
+  <view class="userinfo">
+      <image  class="userinfo-avatar" src="{{headsrc}}" background-size="cover"></image>
+      <text class="userinfo-nickname">陌生人，你好</text>
+  </view>
+  <view class='music'>
+     <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio"             bindplay='audioPlay' bindpause='audioPause'  controls='true' controls loop>
+     </audio>
+  <view>
+  <button type="primary" bindtap="audioPlay" plain="false"bindtap="goTopage1">Go ON</button>
+  </view>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

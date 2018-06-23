@@ -1,0 +1,8 @@
+<!--pages/page2/page2.wxml-->
+<text class="preyWord">陌生的大标题</text>
+<view class="background">
+ <image mode="widthFix"src="../../src/doge.jpg"  ></image> 
+</view>
+<view class="background">
+    <button type="default" size="default" bindtap="actioncnt" class="buttomCenter">陌生人这周有空吗(请按我！)</button>
+</view>

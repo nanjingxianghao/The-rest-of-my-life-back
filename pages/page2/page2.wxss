@@ -1,0 +1,29 @@
+/* pages/page2/page2.wxss */
+.background{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+.treehead{
+  height: 100rpx;
+  width: 100%;
+  /* background-color: teal; */
+  margin: 3px;
+  position: relative;
+}
+.preyWord{
+  color: #aaa;
+}
+.buttomCenter{
+
+  background-color: blue;
+  margin: 3px;
+  top: 190px;
+  position: relative;
+  border-style:solid;
+  border-color:green;
+}

@@ -1,0 +1,37 @@
+<!--pages/page1/page1.wxml-->
+<view class="selection">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" style="width: {{imageWidth}}px;" />
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+<view class="selection">
+    <view class="header">
+      <text>陌生人，这里是照片墙</text>      
+    </view>
+    <view class="content">
+            <view class="content-item" >
+                <image src='../../src/doge.jpg' ></image>      
+                <view class="content-item-text">
+                  <text class="contet-item-text">陌生人的寄语</text>
+                </view>
+            </view>
+                <view class="content-item" >
+                      <image src='../../src/doge.jpg' ></image>      
+                      <view class="content-item-text">
+                        <text class="contet-item-text">陌生人的寄语</text>
+                      </view>
+            </view>
+    </view>
+</view>
+<view class="selection">
+    <view class="header">
+          <text>请不要关闭继续往下看可以吗！！！</text>      
+    </view>
+    <view class="content">
+    <button type="primary" bindtap="audioPlay" size="mini"plain="false"   bindtap="goTopage2" class="buttomCenter">勉强同意</button>
+    </view>
+</view>
